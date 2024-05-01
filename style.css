@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    background-color: whitesmoke;
+    padding: 5px 400px 5px 400px;
+    margin-bottom:50px;
+}
+#my-form{
+    background-color: whitesmoke;
+    padding: 20px 10px 20px 30px ;
+    width: 40%;
+    margin: 0 auto;
+    line-height: 20px;
+}
+#my-form h1{
+    margin-bottom: 10px;
+}
+
+input[type=text], input[type=email]{
+    width: 90%;
+    margin: 5px 0 10px 0 ;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+.btn{
+    width: 90%;
+    margin: 10px 0px 5px 0px ;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+.items li{
+    
+    text-align: center;
+}
